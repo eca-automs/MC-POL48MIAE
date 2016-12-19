@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
--0.5
+10000000000
  20
-0.25
+10000000000
  30
 0
   9
 $EXTMAX
  10
-419.5
+-10000000000
  20
-297.25
+-10000000000
  30
 0
   9
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-232.6792899408284
+243.7851782363977
  22
-150.2573964497041
+151.5647279549718
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-304.0295857988166
+308.1444652908067
  41
-1.680924855491329
+1.799276672694394
  42
 50
  43
@@ -2401,7 +2401,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-standard
+iso
  70
     0
  40
@@ -2415,7 +2415,7 @@ standard
  42
 1
   3
-standard
+iso
   4
 
   0
@@ -2429,7 +2429,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-iso
+standard
  70
     0
  40
@@ -2443,7 +2443,7 @@ iso
  42
 1
   3
-iso
+standard
   4
 
   0
@@ -10609,6 +10609,52 @@ ByLayer
 100
 AcDbMText
  10
+187.4699954334039
+ 20
+196.4956525714337
+ 30
+0
+ 40
+2.5
+ 41
+5.277777777777933
+ 71
+    1
+ 72
+    1
+  1
+T32
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+153
+100
+AcDbEntity
+  8
+labels
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
 197.5265194497276
  20
 235.2651452081646
@@ -10641,7 +10687,7 @@ standard
   0
 MTEXT
   5
-153
+154
 100
 AcDbEntity
   8
@@ -10687,7 +10733,7 @@ standard
   0
 MTEXT
   5
-154
+155
 100
 AcDbEntity
   8
@@ -10733,7 +10779,7 @@ standard
   0
 MTEXT
   5
-155
+156
 100
 AcDbEntity
   8
@@ -10779,7 +10825,7 @@ standard
   0
 INSERT
   5
-156
+157
 100
 AcDbEntity
   8
@@ -10819,46 +10865,6 @@ mcp2014x-connector-0
   0
 INSERT
   5
-157
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-mcp2014x-connector-0
- 10
-196.2257293762576
- 20
-231
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
 158
 100
 AcDbEntity
@@ -10875,7 +10881,7 @@ AcDbBlockReference
   2
 mcp2014x-connector-0
  10
-206.2257293762576
+196.2257293762576
  20
 231
  30
@@ -10915,7 +10921,7 @@ AcDbBlockReference
   2
 mcp2014x-connector-0
  10
-216.2257293762576
+206.2257293762576
  20
 231
  30
@@ -10955,7 +10961,7 @@ AcDbBlockReference
   2
 mcp2014x-connector-0
  10
-226.2257293762576
+216.2257293762576
  20
 231
  30
@@ -10995,6 +11001,46 @@ AcDbBlockReference
   2
 mcp2014x-connector-0
  10
+226.2257293762576
+ 20
+231
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+15C
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+mcp2014x-connector-0
+ 10
 237.2257293762576
  20
 231
@@ -11019,30 +11065,6 @@ mcp2014x-connector-0
   0
 LINE
   5
-15C
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-76.22572937625756
- 20
-230
- 11
-246.2257293762576
- 21
-230
-  0
-LINE
-  5
 15D
 100
 AcDbEntity
@@ -11057,13 +11079,13 @@ ByLayer
 100
 AcDbLine
  10
-246.2257293762576
- 20
-270
- 11
 76.22572937625756
+ 20
+230
+ 11
+246.2257293762576
  21
-270
+230
   0
 LINE
   5
@@ -11083,9 +11105,9 @@ AcDbLine
  10
 246.2257293762576
  20
-230
+270
  11
-246.2257293762576
+76.22572937625756
  21
 270
   0
@@ -11107,11 +11129,11 @@ AcDbLine
  10
 246.2257293762576
  20
-220
+230
  11
-186.2257293762576
+246.2257293762576
  21
-220
+270
   0
 LINE
   5
@@ -11129,6 +11151,30 @@ ByLayer
 100
 AcDbLine
  10
+246.2257293762576
+ 20
+220
+ 11
+186.2257293762576
+ 21
+220
+  0
+LINE
+  5
+161
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
 186.2257293762576
  20
 190
@@ -11139,7 +11185,7 @@ AcDbLine
   0
 LINE
   5
-161
+162
 100
 AcDbEntity
   8
@@ -11163,7 +11209,7 @@ AcDbLine
   0
 LINE
   5
-162
+163
 100
 AcDbEntity
   8
@@ -11187,7 +11233,7 @@ AcDbLine
   0
 LINE
   5
-163
+164
 100
 AcDbEntity
   8
@@ -11211,46 +11257,6 @@ AcDbLine
   0
 INSERT
   5
-164
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-mcp2014x-connector-0
- 10
-237.2257293762576
- 20
-213
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
 165
 100
 AcDbEntity
@@ -11267,7 +11273,7 @@ AcDbBlockReference
   2
 mcp2014x-connector-0
  10
-226.2257293762576
+237.2257293762576
  20
 213
  30
@@ -11307,7 +11313,7 @@ AcDbBlockReference
   2
 mcp2014x-connector-0
  10
-216.2257293762576
+226.2257293762576
  20
 213
  30
@@ -11347,7 +11353,7 @@ AcDbBlockReference
   2
 mcp2014x-connector-0
  10
-206.2257293762576
+216.2257293762576
  20
 213
  30
@@ -11387,7 +11393,7 @@ AcDbBlockReference
   2
 mcp2014x-connector-0
  10
-196.2257293762576
+206.2257293762576
  20
 213
  30
@@ -11427,6 +11433,46 @@ AcDbBlockReference
   2
 mcp2014x-connector-0
  10
+196.2257293762576
+ 20
+213
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+16A
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+mcp2014x-connector-0
+ 10
 187.2257293762576
  20
 192
@@ -11451,7 +11497,7 @@ mcp2014x-connector-0
   0
 INSERT
   5
-16A
+16B
 100
 AcDbEntity
   8
@@ -11491,7 +11537,7 @@ mcp2014x-connector-0
   0
 LINE
   5
-16B
+16C
 100
 AcDbEntity
   8
@@ -11515,7 +11561,7 @@ AcDbLine
   0
 LINE
   5
-16C
+16D
 100
 AcDbEntity
   8
@@ -11539,7 +11585,7 @@ AcDbLine
   0
 LINE
   5
-16D
+16E
 100
 AcDbEntity
   8
@@ -11563,7 +11609,7 @@ AcDbLine
   0
 LINE
   5
-16E
+16F
 100
 AcDbEntity
   8
@@ -11587,7 +11633,7 @@ AcDbLine
   0
 LINE
   5
-16F
+170
 100
 AcDbEntity
   8
@@ -11611,7 +11657,7 @@ AcDbLine
   0
 MTEXT
   5
-170
+171
 100
 AcDbEntity
   8
@@ -11657,7 +11703,7 @@ standard
   0
 MTEXT
   5
-171
+172
 100
 AcDbEntity
   8
@@ -11703,7 +11749,7 @@ standard
   0
 MTEXT
   5
-172
+173
 100
 AcDbEntity
   8
@@ -11749,7 +11795,7 @@ standard
   0
 INSERT
   5
-173
+174
 100
 AcDbEntity
   8
@@ -11789,7 +11835,7 @@ Terminal-in
   0
 MTEXT
   5
-174
+175
 100
 AcDbEntity
   8
@@ -11835,7 +11881,7 @@ standard
   0
 LINE
   5
-175
+176
 100
 AcDbEntity
   8
@@ -11859,7 +11905,7 @@ AcDbLine
   0
 INSERT
   5
-176
+177
 100
 AcDbEntity
   8
@@ -11899,7 +11945,7 @@ mcp2014x-connector-0
   0
 INSERT
   5
-177
+178
 100
 AcDbEntity
   8
@@ -11939,30 +11985,6 @@ mcp2014x-connector-0
   0
 LINE
   5
-178
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-239.2257293762576
- 20
-257
- 11
-226.2257293762576
- 21
-257
-  0
-LINE
-  5
 179
 100
 AcDbEntity
@@ -11979,6 +12001,30 @@ AcDbLine
  10
 239.2257293762576
  20
+257
+ 11
+226.2257293762576
+ 21
+257
+  0
+LINE
+  5
+17A
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+239.2257293762576
+ 20
 247
  11
 226.2257293762576
@@ -11987,7 +12033,7 @@ AcDbLine
   0
 LINE
   5
-17A
+17B
 100
 AcDbEntity
   8
@@ -12011,7 +12057,7 @@ AcDbLine
   0
 LINE
   5
-17B
+17C
 100
 AcDbEntity
   8
@@ -12035,7 +12081,7 @@ AcDbLine
   0
 LINE
   5
-17C
+17D
 100
 AcDbEntity
   8
@@ -12059,7 +12105,7 @@ AcDbLine
   0
 INSERT
   5
-17D
+17E
 100
 AcDbEntity
   8
@@ -12099,30 +12145,6 @@ Terminal-in
   0
 LINE
   5
-17E
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-246.2257293762576
- 20
-247
- 11
-266.2257293762576
- 21
-247
-  0
-LINE
-  5
 17F
 100
 AcDbEntity
@@ -12139,6 +12161,30 @@ AcDbLine
  10
 246.2257293762576
  20
+247
+ 11
+266.2257293762576
+ 21
+247
+  0
+LINE
+  5
+180
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+246.2257293762576
+ 20
 257
  11
 266.2257293762576
@@ -12147,7 +12193,7 @@ AcDbLine
   0
 LINE
   5
-180
+181
 100
 AcDbEntity
   8
@@ -12171,7 +12217,7 @@ AcDbLine
   0
 MTEXT
   5
-181
+182
 100
 AcDbEntity
   8
@@ -12217,7 +12263,7 @@ standard
   0
 MTEXT
   5
-182
+183
 100
 AcDbEntity
   8
@@ -12263,7 +12309,7 @@ standard
   0
 MTEXT
   5
-183
+184
 100
 AcDbEntity
   8
@@ -12292,52 +12338,6 @@ AcDbMText
     1
   1
 RRSS
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-184
-100
-AcDbEntity
-  8
-labels
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-258.0035071540353
- 20
-273
- 30
-0
- 40
-4
- 41
-4
- 71
-    1
- 72
-    1
-  1
-10
   7
 standard
 210
@@ -18021,21 +18021,21 @@ ByLayer
 100
 AcDbMText
  10
-187.4699954334039
+258.0035071540353
  20
-196.4956525714337
+273
  30
 0
  40
-2.5
+4
  41
-5.277777777778089
+4.888888888888888
  71
     1
  72
     1
   1
-T33
+82
   7
 standard
 210
@@ -18067,9 +18067,9 @@ ByLayer
 100
 AcDbMText
  10
-303
+302.654478423
  20
-36
+37.8318098028
  30
 0
  40
