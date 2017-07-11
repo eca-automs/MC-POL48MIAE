@@ -1,5 +1,5 @@
 {
-  "name": "mc-ol48miae",
+  "name": "mc-pol48miae",
   "version": "0.2.1",
   "description": "",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:eca-automs/schematics/MC-OL48MIAE.git"
+    "url": "git@gitlab.com:eca-automs/schematics/MC-POL48MIAE.git"
   },
   "author": "Roberto Belardi <robqo.dev@gmail.com>",
   "license": "GPL-3.0"
