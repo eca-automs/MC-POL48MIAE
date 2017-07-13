@@ -1,3 +1,11 @@
+<a name="0.2.2"></a>
+## 0.2.2 (2017-07-13)
+
+* Fix collegamento bottoniera manutenzione ([8d22fc8](https://gitlab.com/eca-automs/schematics/MC-POL48MIAE/commit/8d22fc8))
+* Update package.json ([2929802](https://gitlab.com/eca-automs/schematics/MC-POL48MIAE/commit/2929802))
+
+
+
 <a name="0.2.1"></a>
 ## 0.2.1 (2017-07-11)
 
